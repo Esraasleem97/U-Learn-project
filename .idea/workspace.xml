@@ -19,20 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a96c8726-61e9-4b66-ac5d-4bb2ff8bc67d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/frontend/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/frontend/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/routes/student.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/routes/student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/routes/teacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/routes/teacher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="a96c8726-61e9-4b66-ac5d-4bb2ff8bc67d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613664209440</updated>
-      <workItem from="1613664212481" duration="3069000" />
+      <workItem from="1613664212481" duration="3579000" />
     </task>
     <servers />
   </component>
@@ -201,6 +188,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613667693080">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1613667693080" />
     <state x="457" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613665314441">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
