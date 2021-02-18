@@ -93,6 +93,30 @@
     @apply text-main-color bg-white border-main-color
 }
 
+.btn-info {
+    @apply bg-blue-600 py-2 px-4 border-blue-600 duration-300 text-white
+}
+
+.btn-info:hover {
+    @apply bg-blue-500 border-blue-500
+}
+
+.btn-success {
+    @apply bg-green-600 py-2 px-4 border-green-600 duration-300 text-white
+}
+
+.btn-success:hover {
+    @apply bg-green-500 border-green-500
+}
+
+.btn-danger {
+    @apply bg-red-600 py-2 px-4 border-red-600 duration-300 text-white
+}
+
+.btn-danger:hover {
+    @apply bg-red-500 border-red-500
+}
+
 .sup::before {
     content: "";
     top: -.25rem;
@@ -179,6 +203,27 @@ ul li:hover {
 
 .group:hover .group-hover\:text-blue-800 {
     color: #2b6cb0;
+}
+
+table {
+    @apply w-full overflow-auto
+}
+
+th,
+td {
+    @apply py-6 px-10 border-b text-center
+}
+
+th {
+    @apply bg-gray-200
+}
+
+tr {
+    @apply duration-300
+}
+
+tr:hover {
+    @apply bg-gray-200
 }
 
 .section-login {}
