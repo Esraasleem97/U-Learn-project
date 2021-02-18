@@ -1,0 +1,13 @@
+{
+    "name": "TeacherStage",
+    "alias": "teacherstage",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TeacherStage\\Providers\\TeacherStageServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
