@@ -19,118 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="909bed9d-d8ad-4435-8f68-420bca943526" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/U-Learn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Config/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Config/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Console/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Database/Migrations/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Database/Seeders/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Database/Seeders/HomeDatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Database/factories/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Entities/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Http/Controllers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Http/Controllers/HomeController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Http/Middleware/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Http/Requests/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Providers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Providers/HomeServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Resources/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Resources/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Resources/assets/sass/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Resources/lang/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Resources/views/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Resources/views/Home.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Resources/views/layouts/master.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Routes/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Tests/Feature/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/Tests/Unit/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/module.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Home/webpack.mix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Config/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Config/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Console/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Database/Migrations/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Database/Seeders/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Database/Seeders/StudentStageDatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Database/factories/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Entities/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Http/Controllers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Http/Controllers/StudentStageController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Http/Middleware/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Http/Requests/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Providers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Providers/StudentStageServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Resources/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Resources/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Resources/assets/sass/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Resources/lang/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Resources/views/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Resources/views/Stage.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Resources/views/layouts/master.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Routes/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Tests/Feature/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/Tests/Unit/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/module.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/StudentStage/webpack.mix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Config/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Config/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Console/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Database/Migrations/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Database/Seeders/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Database/Seeders/TeacherStageDatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Database/factories/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Entities/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Http/Controllers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Http/Controllers/TeacherStageController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Http/Middleware/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Http/Requests/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Providers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Providers/TeacherStageServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Resources/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Resources/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Resources/assets/sass/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Resources/lang/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Resources/views/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Resources/views/Stage.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Resources/views/layouts/master.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Routes/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Tests/Feature/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/Tests/Unit/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/module.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/TeacherStage/webpack.mix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/public/Include/Footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/Include/Footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/public/Include/Header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/Include/Header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/public/Include/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/Include/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/public/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/public/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/public/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/public/page/Book.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/page/Book.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/public/page/Home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/page/Home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/public/page/Stage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/page/Stage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+    <list default="true" id="909bed9d-d8ad-4435-8f68-420bca943526" name="Default Changelist" comment="folder structure">
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/frontend/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/student.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/teacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/teacher.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,12 +156,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\U-Learn-project\U-Learn\app\Http\Controllers\frontend" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\U-Learn-project\U-Learn\app\Http\Controllers\admin" />
       <recent name="C:\xampp\htdocs\U-Learn-project\U-Learn\resources\views\backend" />
     </key>
   </component>
@@ -281,8 +177,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613662265744</updated>
-      <workItem from="1613662268791" duration="1017000" />
+      <workItem from="1613662268791" duration="1637000" />
     </task>
+    <task id="LOCAL-00001" summary="folder structure">
+      <created>1613663776271</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613663776271</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,5 +202,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="folder structure" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1613664190555">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1613664190555" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1613663808566">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1613663808566" />
+    <state x="346" y="59" key="search.everywhere.popup" timestamp="1613663888009">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1613663888009" />
   </component>
 </project>

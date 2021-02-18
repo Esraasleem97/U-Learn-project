@@ -1,4 +1,4 @@
-@extends('public.layouts.app')
+@extends('frontend.layouts.app')
 
 @section('title')
     تسجيل الدخول
@@ -18,7 +18,7 @@
     <input type="password"  id="password" name="password" placeholder=" " class="input" />
     <label for="password" class="label"><i class="ti ti-lock"></i> كلمة المرور</label>
   </div>
-  
+
   <div class="flex justify-center w-full">
     <a href="{{route('Stage')}}" class="btn btn-main">تسجيل الدخول</a>
 </div>
