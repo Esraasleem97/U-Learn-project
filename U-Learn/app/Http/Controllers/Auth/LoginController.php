@@ -8,11 +8,11 @@ use Illuminate\Http\Request;
 class LoginController extends Controller
 {
     public function SubmitLoginStudent(){
-        $name ="للطلبة";
-        return view('public.auth.login',compact('name'));
+       
+        return view('backend.auth.login');
     }
     public function SubmitLoginTeacher(){
-        $name ="للأساتذة";
-        return view('public.auth.login',compact('name'));
+       
+        return view('backend.auth.login');
     }
 }

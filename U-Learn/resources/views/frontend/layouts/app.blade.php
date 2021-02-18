@@ -9,10 +9,10 @@
 </head>
 <body dir="rtl">
     <div class="container mx-auto">
-        @include('public.Include.Header')
+        @include('frontend.Include.Header')
     </div>
         @yield('content')
-        @include('public.Include.Footer')
+        @include('frontend.Include.Footer')
 <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-@extends('public.layouts.app')
+@extends('frontend.layouts.app')
 @section('title')
     المرحلة الدراسية
 @endsection
@@ -7,7 +7,7 @@
     <form action="">
         @csrf
         <div class="container mx-auto ">
-            @include('public.include.navbar')
+            @include('frontend.include.navbar')
             
             <div class="border shadow-xl rounded-md w-full bg-white px-12 pb-10">
                 <div>

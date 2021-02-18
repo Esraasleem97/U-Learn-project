@@ -10,6 +10,6 @@ class BookController extends Controller
     public function Book()
     {
         $books=['قواعد بيانات','برمجة كينونة','شبكات الحاسوب','معالجة الوسائط الرقمية'];
-        return view('public.page.Book',compact('books'));
+        return view('frontend.page.Book',compact('books'));
     }
 }

@@ -1,4 +1,4 @@
-@extends('public.layouts.app')
+@extends('frontend.layouts.app')
 
 @section('title')
     تسجيل الدخول
