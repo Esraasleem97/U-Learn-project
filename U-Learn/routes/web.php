@@ -15,7 +15,7 @@ use App\Http\Controllers\General\BookController;
 */
 
 Route::get('/', function () {
-    return view('public.page.Home');
+    return view('frontend.page.Home');
 });
 Route::prefix('stage')->group(function() {
     Route::get('/', [StageController::class,'Stage'])->name('Stage');

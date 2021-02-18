@@ -1,4 +1,4 @@
-@extends('public.layouts.app')
+@extends('frontend.layouts.app')
 
 @section('title')
    تسجيل
@@ -26,7 +26,7 @@
     <input type="password"  id="confirm_password" name="confirm_password" placeholder=" " class="input" />
     <label for="confirm_password" class="label"><i class="ti ti-lock"></i> تأكيد كلمة المرور</label>
   </div>
-  
+
   <div class="my-12 flex justify-center w-full">
     <a href="{{route('Stage')}}" class="btn btn-main">تسجيل</a>
 </div>
