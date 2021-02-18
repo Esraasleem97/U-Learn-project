@@ -20,17 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a96c8726-61e9-4b66-ac5d-4bb2ff8bc67d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/frontend/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/backend/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/General/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/General/BookController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/General/StageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/General/StageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/resources/views/frontend/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/resources/views/frontend/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/resources/views/frontend/page/Book.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/resources/views/frontend/page/Book.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/resources/views/frontend/page/Home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/resources/views/frontend/page/Home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U-Learn/resources/views/frontend/page/Stage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/resources/views/frontend/page/Stage.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/frontend/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/app/Http/Controllers/frontend/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U-Learn/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/app/Providers/RouteServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/U-Learn/routes/student.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/routes/student.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/U-Learn/routes/teacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/routes/teacher.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/U-Learn/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/U-Learn/routes/web.php" afterDir="false" />
@@ -166,12 +164,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/U-Learn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/U-Learn/app/Http/Controllers" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\U-Learn-project\U-Learn\app\Http\Controllers" />
       <recent name="C:\xampp\htdocs\U-Learn-project\U-Learn" />
     </key>
   </component>
@@ -183,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613664209440</updated>
-      <workItem from="1613664212481" duration="1906000" />
+      <workItem from="1613664212481" duration="3069000" />
     </task>
     <servers />
   </component>
@@ -206,6 +205,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="457" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1613665314441" />
+    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1613667584688">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1613667584688" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1613666765928">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1613666765928" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1613665254001">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

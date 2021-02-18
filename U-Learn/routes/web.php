@@ -23,4 +23,3 @@ Route::prefix('stage')->group(function() {
 Route::prefix('book')->group(function() {
     Route::get('/', [BookController::class,'Book'])->name('Book');
 });
-Route::view('/register','backend.auth.register');

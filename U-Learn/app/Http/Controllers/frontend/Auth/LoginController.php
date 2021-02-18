@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 
 class LoginController extends Controller
 {
+
+
     public function SubmitLoginStudent(){
         $name ="للطلبة";
         return view('frontend.auth.login',compact('name'));
