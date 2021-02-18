@@ -137,7 +137,9 @@ ul li:hover {
 }
 
 .outline input:focus-within~label,
-.outline input:not(:placeholder-shown)~label {
+.outline input:not(:placeholder-shown)~label,
+.outline textarea:focus-within~label,
+.outline textarea:not(:placeholder-shown)~label {
     @apply transform scale-90 -translate-y-3 z-0 ml-3 px-1 py-0 text-sub-color
 }
 
@@ -151,6 +153,32 @@ ul li:hover {
 
 .input-form i {
     @apply text-sub-color
+}
+
+.hasImage:hover section {
+    background-color: rgba(5, 5, 5, 0.4);
+}
+
+.hasImage:hover button:hover {
+    background: rgba(5, 5, 5, 0.45);
+}
+
+#overlay p,
+{
+    opacity: 0;
+}
+
+#overlay.draggedover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#overlay.draggedover p,
+#overlay.draggedover i {
+    opacity: 1;
+}
+
+.group:hover .group-hover\:text-blue-800 {
+    color: #2b6cb0;
 }
 
 .section-login {}
