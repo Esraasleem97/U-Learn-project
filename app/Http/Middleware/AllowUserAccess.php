@@ -15,8 +15,7 @@ class AllowUserAccess
      */
     public function handle(Request $request, Closure $next, $type)
     {
-        $user = Auth()->user();
-        if ($user->type == $type){
+        if (Auth()->check() && Auth()->user()->type == $type  ){
             return $next($request);
         }
         return redirect()->to('/')->with('errors', 'لا تملك صلاحية للوصول الى هذه الصفحة');
