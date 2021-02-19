@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('type');
-            $table->string('degree')->nullable();
+            $table->integer('student_year')->nullable();
             $table->string('token');
             $table->timestamps();
         });

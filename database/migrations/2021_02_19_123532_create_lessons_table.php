@@ -18,7 +18,6 @@ class CreateLessonsTable extends Migration
             $table->string('title');
             $table->string('description');
             $table->string('media');
-            $table->string('student_degree');
             $table->unsignedBigInteger('book_id');
             $table->timestamps();
             $table->foreign('book_id')->references('id')->on('books');
