@@ -3,12 +3,12 @@
 
 use App\Http\Controllers\frontend\Auth\RegisterController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\frontend\Auth\LoginController;
+use App\Http\Controllers\frontend\Auth\AuthController;
 Route::group(['prefix' => 'login'  , 'middleware' => 'guest:web'] , function() {
-    Route::get('student',[LoginController::class,'SubmitLoginStudent'])
+    Route::get('student',[AuthController::class,'Student'])
         ->name('login-student');
 
-    Route::post('/student',[LoginController::class,'authenticate'])
+    Route::post('/student',[AuthController::class,'authenticate'])
         ->name('student.login');
 });
 
@@ -18,4 +18,10 @@ Route::get('/student',[RegisterController::class,'Student'])
 
 Route::post('/student',[RegisterController::class,'create'])
     ->name('student.register.create');
+});
+
+Route::group(['prefix' => 'teacher', 'middleware' => 'auth:web'], function () {
+
+    Route::get('/logout', [AuthController::class , 'logout'])->name('student.logout');
+
 });

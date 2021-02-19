@@ -8,24 +8,19 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 
-
-class LoginController extends Controller
+class AuthController extends Controller
 {
 
-    public function __construct()
-    {
-        $this->middleware('guest:web');
-    }
 
     protected $redirectTo = RouteServiceProvider::HOME;
 
-    public function SubmitLoginStudent()
+    public function Student()
     {
         $name = "للطلبة";
         return view('frontend.auth.student-login', compact('name'));
     }
 
-    public function SubmitLoginTeacher()
+    public function Teacher()
     {
         $name = "للأساتذة";
         return view('frontend.auth.teacher-login', compact('name'));
@@ -46,6 +41,15 @@ class LoginController extends Controller
         }
 
         return back()->with(['errors' => 'خطأ في البريد الالكتروني او كلمة السر']);
+    }
+
+
+    public function logout()
+    {
+        Auth::logout();
+
+        return back()->with(['success' => 'تم تسجيل الخروج بنجاح']);
+
     }
 
 }
