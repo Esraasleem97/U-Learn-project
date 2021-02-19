@@ -24,7 +24,7 @@
                             </div>
                         </label>
                     </div> --}}
-                    <a href="{{route('Book')}}" class="stage m-4 w-full sm:w-3/6 md:w-2/5 lg:w-1/3 xl:w-1/5">
+                    <a href="{{route('teacher.books')}}" class="stage m-4 w-full sm:w-3/6 md:w-2/5 lg:w-1/3 xl:w-1/5">
                         <p class="transition duration-300">{{$stage}}</p>
                         <i class="fas fa-arrow-left mt-2 text-main-color"></i>
                     </a>

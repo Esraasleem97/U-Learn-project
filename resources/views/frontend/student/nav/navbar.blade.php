@@ -7,7 +7,7 @@
         <div class="flex items-center relative">
             <li class="text-main-color font-medium text-xl"><a><i class="far fa-bell"></i></a></li>
             <li class="mr-4"> | </li>
-            <li class="mr-4"><a href="{{route('logout')}}">تسجيل الخروج</a></li>
+            <li class="mr-4"><a href="{{route('student.logout')}}">تسجيل الخروج</a></li>
         </div>
     </ul>
 </nav>

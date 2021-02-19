@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\General\StageController;
-use App\Http\Controllers\General\BookController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,9 +16,4 @@ use App\Http\Controllers\General\BookController;
 Route::get('/', function () {
     return view('frontend.page.Home');
 });
-Route::prefix('stage')->group(function() {
-    Route::get('/', [StageController::class,'Stage'])->name('Stage');
-});
-Route::prefix('book')->group(function() {
-    Route::get('/', [BookController::class,'Book'])->name('Book');
-});
+

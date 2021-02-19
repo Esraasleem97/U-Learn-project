@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
 @section('title')
-    إضافة درس
+الدروس
 @endsection
 @section('content')
 <div class="bg-gray-100 my-16">
@@ -8,7 +8,7 @@
         @csrf
         <div class="container mx-auto ">
             @include('frontend.teacher.nav.navbar')
-            
+
             <div class="border shadow-xl rounded-md w-full bg-white px-12 pb-10">
                 <div>
                     <h1 class="text-3xl font-semibold my-8">جميع الدروس</h1>
@@ -37,11 +37,11 @@
                                 </td>
                             </tr>
                             @endfor
-                            
+
                         </tbody>
                     </table>
-               
-               
+
+
             </div>
         </div>
     </form>

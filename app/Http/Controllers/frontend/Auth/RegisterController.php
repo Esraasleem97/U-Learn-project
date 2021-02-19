@@ -104,6 +104,7 @@ class RegisterController extends Controller
 
         } elseif ($request->is('register/student')) {
             $user->type = Student::$TYPE;
+            $user->degree = Student::FIRST_YEAR;
             $this->isStudent = true;
         } else {
             $this->NotFoundRequestException();
