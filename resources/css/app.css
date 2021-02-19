@@ -94,7 +94,7 @@
 }
 
 .btn-info {
-    @apply bg-blue-600 py-2 px-4 border-blue-600 duration-300 text-white
+    @apply bg-blue-600 py-1 px-2 border-blue-600 duration-300 text-white
 }
 
 .btn-info:hover {
@@ -102,7 +102,7 @@
 }
 
 .btn-success {
-    @apply bg-green-600 py-2 px-4 border-green-600 duration-300 text-white
+    @apply bg-green-600 py-1 px-2 border-green-600 duration-300 text-white
 }
 
 .btn-success:hover {
@@ -110,7 +110,7 @@
 }
 
 .btn-danger {
-    @apply bg-red-600 py-2 px-4 border-red-600 duration-300 text-white
+    @apply bg-red-600 py-1 px-2 border-red-600 duration-300 text-white
 }
 
 .btn-danger:hover {
@@ -215,7 +215,11 @@ td {
 }
 
 th {
-    @apply bg-gray-200
+    @apply text-base text-sub-color bg-gray-100
+}
+
+td {
+    @apply text-xs
 }
 
 tr {
@@ -223,7 +227,15 @@ tr {
 }
 
 tr:hover {
-    @apply bg-gray-200
+    @apply bg-yellow-200
+}
+
+video {
+    height: 600px;
+}
+
+.plyr {
+    @apply block
 }
 
 .section-login {}
