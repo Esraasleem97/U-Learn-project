@@ -10,4 +10,21 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    /**
+     * @param $folder
+     * @param $file
+     * @param null $path
+     * @return string
+     */
+    public function UploadFiles($folder, $file, $path = null)
+    {
+
+        $file->store('/', $folder);
+
+        if ($path != null) {
+            return $path . '/' . $folder . '/' . $file->hashName();
+        }
+        return $folder . '/' . $file->hashName();
+    }
 }

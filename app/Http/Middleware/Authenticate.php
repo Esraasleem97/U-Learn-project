@@ -14,15 +14,11 @@ class Authenticate extends Middleware
      */
     protected function redirectTo($request)
     {
-
         if ($request->is('teacher/*')) {
             return route('login-teacher');
-
         }
         if ($request->is('student/*')) {
             return route('login-student');
-
         }
-
     }
 }

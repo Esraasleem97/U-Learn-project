@@ -5,6 +5,7 @@ namespace App\Http\Controllers\frontend\Teacher;
 
 
 use App\Http\Controllers\Controller;
+use App\Models\Books;
 
 class StageController extends Controller
 {
@@ -17,6 +18,12 @@ class StageController extends Controller
             'المرحلة الدراسية الثالثة',
             'المرحلة الدراسية الرابعة'
         ];
-        return view('frontend.teacher.page.Stage', compact('stages'));
+        $books = Books::select('year')
+            ->orderBy('year')
+            ->get()
+            ->unique('year')
+            ->values();
+
+        return view('frontend.teacher.page.Stage', compact('stages', 'books'));
     }
 }

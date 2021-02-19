@@ -24,19 +24,19 @@
                             <th></th>
                         </thead>
                         <tbody>
-                            @for ($i = 0; $i < 5; $i++)
+                            @foreach ($lessons as $key => $lesson)
                             <tr>
-                                <td>1</td>
-                                <td>اسم المادة</td>
-                                <td>الدرس الاول</td>
-                                <td>الدرس الاول الدرس الاول</td>
+                                <td>{{$key++}}</td>
+                                <td>{{$lesson->book->name}}</td>
+                                <td>{{$lesson->title}}</td>
+                                <td>{{substr($lesson->details , 0 , 15) . '...'}}</td>
                                 <td>
                                     <a href="" class="btn btn-info">عرض</a>
                                     <a href="" class="btn btn-success">تعديل</a>
                                     <a href="" class="btn btn-danger">حذف</a>
                                 </td>
                             </tr>
-                            @endfor
+                            @endforeach
 
                         </tbody>
                     </table>

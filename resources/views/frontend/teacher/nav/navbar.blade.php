@@ -2,7 +2,7 @@
     <ul class="flex justify-between">
         <div class="flex ">
             <li class="list-border-b relative"><a href="{{route('teacher.stage')}}">المرحلة الدراسية</a></li>
-            <li class="mr-8"><a href="{{route('teacher.books')}}">الكتب الدراسية</a></li>
+{{--            <li class="mr-8"><a href="{{route('teacher.books')}}">الكتب الدراسية</a></li>--}}
             <li class="mr-8"><a href="{{route('teacher.index')}}">الدروس</a></li>
         </div>
         <div class="flex items-center relative">

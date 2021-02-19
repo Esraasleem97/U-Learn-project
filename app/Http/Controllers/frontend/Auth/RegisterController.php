@@ -96,7 +96,7 @@ class RegisterController extends Controller
         $user->name = $request['name'];
         $user->email = $request['email'];
         $user->password = Hash::make($request['password']);
-        $user->token = User::generateToken();
+
 
         if ($request->is('register/teacher')) {
             $user->type = Teacher::$TYPE;
@@ -104,7 +104,6 @@ class RegisterController extends Controller
 
         } elseif ($request->is('register/student')) {
             $user->type = Student::$TYPE;
-            $user->degree = Student::FIRST_YEAR;
             $this->isStudent = true;
         } else {
             $this->NotFoundRequestException();

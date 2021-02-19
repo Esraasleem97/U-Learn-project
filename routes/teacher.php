@@ -33,10 +33,13 @@ Route::group(['prefix' => 'teacher', 'middleware' => 'auth:web'], function () {
 
     Route::group(['middleware' => 'allow:teacher'], function () {
         Route::get('/stage', [StageController::class, 'index'])->name('teacher.stage');
-        Route::get('/books', [BookController::class, 'index'])->name('teacher.books');
+        Route::get('/books/{year}', [BookController::class, 'show'])->name('teacher.books');
 
         Route::group(['prefix' => 'lesson'], function () {
-            Route::get('/add', [LessonController::class, 'create'])->name('teacher.add');
+
+            Route::get('/create/{book_id}', [LessonController::class, 'create'])->name('teacher.add');
+            Route::post('/store', [LessonController::class, 'store'])->name('teacher.store');
+
             Route::get('/index', [LessonController::class, 'index'])->name('teacher.index');
 //            Route::get('/view', 'frontend.teacher.page.view')->name('teacher.view');
         });
