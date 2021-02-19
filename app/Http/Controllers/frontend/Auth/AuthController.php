@@ -34,7 +34,7 @@ class AuthController extends Controller
             $request->session()->regenerate();
 
             if ($request->is('login/teacher'))
-                return redirect()->to('/')->with(['success' => "   مرحبا "]);
+                return redirect()->route('teacher.add')->with(['success' => "   مرحبا "]);
             if ($request->is('login/student'))
                 return redirect()->to('/')->with(['success' => "  مرحبا "]);
             return back()->with(['errors' => 'حدث خطأ ما']);
