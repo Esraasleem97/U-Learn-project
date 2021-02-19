@@ -373,7 +373,19 @@
     <state x="517" y="292" key="NewPhpFileDialog" timestamp="1613667584688">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
+<<<<<<< Updated upstream
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1613723559802" />
+=======
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1613680187202" />
+    <state x="129" y="56" key="MergeDialog" timestamp="1613722853768">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1613722853768" />
+    <state x="321" y="130" key="MultipleFileMergeDialog" timestamp="1613722868425">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="321" y="130" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1613722868425" />
+>>>>>>> Stashed changes
     <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1613663808566">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
