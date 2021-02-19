@@ -29,10 +29,7 @@ class RegisterController extends Controller
         return view('frontend.auth.teacher-register', compact('name'));
     }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin
     /**
      * @param Request $request
      * @return RedirectResponse
@@ -66,6 +63,9 @@ class RegisterController extends Controller
     }
 
 
+    /**
+     * @param $request
+     */
     protected function Validator($request): void
     {
 

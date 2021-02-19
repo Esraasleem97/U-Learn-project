@@ -10,7 +10,7 @@ Route::group(['prefix' => 'login', 'middleware' => 'guest:web'], function () {
     Route::get('login/teacher', [LoginController::class, 'SubmitLoginTeacher'])
         ->name('login-teacher');
 
-    Route::post('/teacher', [LoginController::class, 'login'])
+    Route::post('/teacher', [LoginController::class, 'authenticate'])
         ->name('teacher.login');
 
 });
