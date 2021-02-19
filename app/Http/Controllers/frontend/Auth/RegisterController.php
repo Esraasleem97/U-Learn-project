@@ -29,6 +29,7 @@ class RegisterController extends Controller
         return view('frontend.auth.teacher-register', compact('name'));
     }
 
+
     /**
      * @param Request $request
      * @return RedirectResponse

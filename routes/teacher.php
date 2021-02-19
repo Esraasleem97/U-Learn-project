@@ -11,6 +11,7 @@ Route::group(['prefix' => 'login', 'middleware' => 'guest:web'], function () {
 
     Route::post('/teacher', [LoginController::class, 'login'])
         ->name('teacher.login');
+
 });
 
 
