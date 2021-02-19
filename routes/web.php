@@ -24,3 +24,7 @@ Route::get('/student-index', function () {
 Route::get('/student-view', function () {
     return view('frontend.student.page.view');
 })->name('student.view');
+
+Route::get('/student-notify', function () {
+    return view('frontend.student.page.notify');
+})->name('student.notify');

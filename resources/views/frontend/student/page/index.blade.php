@@ -1,9 +1,9 @@
 @extends('frontend.layouts.app')
 @section('title')
-    المرحلة الدراسية
+    الدروس
 @endsection
 @section('content')
-<div class="my-20">
+<div class="my-20  min-h-screen">
     <form action="">
         @csrf
         <div class="container mx-auto ">
@@ -29,11 +29,16 @@
                         </a>
                     </div>
                 @endfor
+                <div class=" text-center w-4/6 mx-auto my-36">
+                    <img src="img/login.svg" alt="" class="h-96 mx-auto my-8">
+                    <p class=" text-gray-600">لا يوجد لديك دروس حاليا</p>
+                </div>
             </div>
         </div>
             
         </div>
     </div>
 </form>
+
 </div>
 @endsection

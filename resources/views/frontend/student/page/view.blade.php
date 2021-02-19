@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
 @section('title')
-    المرحلة الدراسية
+ عنوان الدرس
 @endsection
 @section('content')
 <div class="">
@@ -25,19 +25,24 @@
                         <source src="/video/video.ogg" type="video/ogg" />
                     </video>
                 </div>
-                <form action="">
-                    @csrf
-                    <div class="w-full md:w-4/5 lg:w-2/3 mx-auto">
-                    
-                        <div class="input-form mt-20">
+               
+                    <div class="w-full md:w-4/5 lg:w-2/3 mx-auto  mt-24">
+                        <div class="text-sm border border-r-8 border-blue-900 py-4 px-4 my-8 flex justify-between items-center rounded-md">
+                            <p class="">سؤال الطالب</p>
+                            <a href="" class="text-red-600">حذف</a>
+                        </div>
+                        <div class="text-sm border border-r-8 border-blue-900 py-4 px-4 my-8 flex justify-between items-center rounded-md mr-8">
+                            <p class="">رد المعلم</p>
+                            <a href="" class="text-red-600">حذف</a>
+                        </div>
+                        <div class="input-form">
                             <textarea name="details" id="details" cols="20" rows="3" placeholder=" " class="input"></textarea>
-                            <label for="details" class="label font-bold">إسأل الأستاذ</label>
+                            <label for="details" class="label font-bold">إسأل الأستاذ أو رد الأستاذ</label>
                         </div>
                         <div class="flex justify-center items-center mt-10">
                             <input type="submit" value="إرسال" class="btn btn-main">
                         </div>
                     </div>
-                </form>
             </div>
         </div>
     </div>

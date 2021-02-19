@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
 @section('title')
-    المرحلة الدراسية
+    عنوان الدرس
 @endsection
 @section('content')
 <div class="">
