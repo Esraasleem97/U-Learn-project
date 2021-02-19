@@ -11,6 +11,10 @@ Route::group(['prefix' => 'login'  , 'middleware' => 'guest:web'] , function() {
     Route::post('/student',[LoginController::class,'login'])
         ->name('student.login');
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin
 });
 
 Route::group(['prefix' => 'register'  , 'middleware' => 'guest:web'] , function() {
@@ -20,4 +24,8 @@ Route::get('/student',[RegisterController::class,'Student'])
 
 Route::post('/student',[RegisterController::class,'create'])
     ->name('student.register.create');
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin
 });

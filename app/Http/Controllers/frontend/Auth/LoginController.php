@@ -14,8 +14,6 @@ use Illuminate\Http\Request;
 class LoginController extends Controller
 {
 
-
-
     protected $redirectTo = RouteServiceProvider::HOME;
 
     public function SubmitLoginStudent()
@@ -33,6 +31,7 @@ class LoginController extends Controller
 
     public function login(Request $request)
     {
+
         try {
             if ($user = Auth()->guard('web')->attempt([
                 'email' => $request->email,

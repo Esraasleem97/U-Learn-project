@@ -2,13 +2,8 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/U-Learn/Modules" isTestSource="false" packagePrefix="Modules\" />
-      <sourceFolder url="file://$MODULE_DIR$/U-Learn/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
-      <sourceFolder url="file://$MODULE_DIR$/U-Learn/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/U-Learn/tests" isTestSource="true" packagePrefix="Tests\" />
-      <sourceFolder url="file://$MODULE_DIR$/U-Learn/app" isTestSource="false" packagePrefix="App\" />
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/asm89/stack-cors" />
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/composer" />
@@ -68,9 +63,13 @@
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/ramsey/collection" />
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/ramsey/uuid" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/realrashid/sweet-alert" />
 =======
 >>>>>>> main
+=======
+      <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/realrashid/sweet-alert" />
+>>>>>>> origin
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/sebastian/cli-parser" />
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/sebastian/code-unit" />
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/sebastian/code-unit-reverse-lookup" />
