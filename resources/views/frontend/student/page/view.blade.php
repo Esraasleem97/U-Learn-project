@@ -7,7 +7,7 @@
     <form action="">
         @csrf
         <div class="container mx-auto ">
-            {{-- @include('frontend.student.nav.navbar') --}}
+            @include('frontend.student.nav.navbar')
 
             <div class="border shadow-xl rounded-md w-full bg-white px-12 pb-10">
                 <div>
