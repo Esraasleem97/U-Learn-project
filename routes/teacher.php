@@ -30,9 +30,10 @@ Route::group(['prefix' => 'teacher', 'middleware' => 'auth:web'], function () {
 
     Route::group(['middleware' => 'allow:teacher'], function () {
 
-        Route::view('/add', 'teacher.page.addVideo')->name('teacher.add');
+        Route::view('/add', 'frontend.teacher.page.add')->name('teacher.add');
 
-        Route::view('/index', 'teacher.page.index')->name('teacher.index');
+        Route::view('/index', 'frontend.teacher.page.index')->name('teacher.index');
+        Route::view('/view', 'frontend.teacher.page.view')->name('teacher.view');
 
     });
 

@@ -12,5 +12,5 @@
     </ul>
 </nav>
 <div class="border bg-gray-50 shadow-md px-12 py-6 my-4 text-2xl tracking-wide">
-    <h1>الأستاذ سجاد عبد الله</h1>
+    <h1>اسم الطالب</h1>
 </div>

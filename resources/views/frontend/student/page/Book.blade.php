@@ -1,18 +1,15 @@
 @extends('frontend.layouts.app')
 @section('title')
-    المرحلة الدراسية
+    الكتب الدراسية
 @endsection
 @section('content')
 <div class=" ">
     <form action="">
         @csrf
         <div class="container mx-auto ">
-<<<<<<< HEAD
 
-            @include('frontend.include.navbar')
-=======
-            @include('public.include.navbar')
->>>>>>> main
+            @include('frontend.student.nav.navbar')
+
 
             <div class="border shadow-xl rounded-md w-full bg-white px-12 pb-10">
                 <div>

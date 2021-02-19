@@ -7,7 +7,7 @@
     <form action="">
         @csrf
         <div class="container mx-auto ">
-            @include('frontend.include.navbar')
+            @include('frontend.teacher.nav.navbar')
             
             <div class="border shadow-xl rounded-md w-full bg-white px-12 pb-10">
                 <div>
@@ -18,6 +18,7 @@
                     <table>
                         <thead>
                             <th>#</th>
+                            <th>اسم المادة</th>
                             <th>العنوان</th>
                             <th>الملخص</th>
                             <th></th>
@@ -26,6 +27,7 @@
                             @for ($i = 0; $i < 5; $i++)
                             <tr>
                                 <td>1</td>
+                                <td>اسم المادة</td>
                                 <td>الدرس الاول</td>
                                 <td>الدرس الاول الدرس الاول</td>
                                 <td>
