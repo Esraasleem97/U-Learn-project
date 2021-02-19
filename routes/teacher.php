@@ -28,8 +28,12 @@ Route::group(['prefix' => 'teacher', 'middleware' => 'auth:web'], function () {
 
     Route::get('/logout', [AuthController::class, 'logout'])->name('teacher.logout');
 
-    Route::view('/add', 'teacher.page.addVideo')->name('add');
+    Route::group(['middleware' => 'allow:teacher'], function () {
 
-    Route::view('/index', 'teacher.page.index')->name('index');
+        Route::view('/add', 'teacher.page.addVideo')->name('add');
+
+        Route::view('/index', 'teacher.page.index')->name('index');
+
+    });
 
 });
