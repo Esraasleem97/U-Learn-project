@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://unpkg.com/@icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/plyr.css" />
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>@yield('title')</title>
 </head>

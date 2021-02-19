@@ -17,3 +17,10 @@ Route::get('/', function () {
     return view('frontend.page.Home');
 })->name('homepage');
 
+Route::get('/student-index', function () {
+    return view('frontend.student.page.index');
+})->name('student.index');
+
+Route::get('/student-view', function () {
+    return view('frontend.student.page.view');
+})->name('student.view');

@@ -13,5 +13,5 @@
     </ul>
 </nav>
 <div class="border bg-gray-50 shadow-md px-12 py-6 my-4 text-2xl tracking-wide">
-    <h1>  اسم الأستاذ {{auth()->user()->name}}</h1>
+    <h1>{{auth()->user()->name}}</h1>
 </div>

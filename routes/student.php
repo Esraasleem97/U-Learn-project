@@ -25,3 +25,5 @@ Route::group(['prefix' => 'teacher', 'middleware' => 'auth:web'], function () {
     Route::get('/logout', [AuthController::class , 'logout'])->name('student.logout');
 
 });
+
+

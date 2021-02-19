@@ -7,15 +7,8 @@
     <form action="">
         @csrf
         <div class="container mx-auto ">
-<<<<<<< Updated upstream:resources/views/frontend/student/page/Book.blade.php
 
             @include('frontend.student.nav.navbar')
-=======
-
-
-            @include('frontend.include.navbar')
->>>>>>> Stashed changes:resources/views/frontend/page/Book.blade.php
-
 
             <div class="border shadow-xl rounded-md w-full bg-white px-12 pb-10">
                 <div>
