@@ -24,7 +24,6 @@ Route::group(['prefix' => 'register', 'middleware' => 'guest:web'], function () 
 
 });
 
-
 Route::view('/add','teacher.page.addVideo')->name('add');
 
 Route::view('/index','teacher.page.index')->name('index');
