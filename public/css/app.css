@@ -37447,6 +37447,69 @@ video {
   border-color: var(--main-color)
 }
 
+.btn-info {
+  --tw-bg-opacity: 1;
+  background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(37, 99, 235, var(--tw-border-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  transition-duration: 300ms
+}
+
+.btn-info:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(59, 130, 246, var(--tw-border-opacity))
+}
+
+.btn-success {
+  --tw-bg-opacity: 1;
+  background-color: rgba(5, 150, 105, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(5, 150, 105, var(--tw-border-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  transition-duration: 300ms
+}
+
+.btn-success:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(16, 185, 129, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(16, 185, 129, var(--tw-border-opacity))
+}
+
+.btn-danger {
+  --tw-bg-opacity: 1;
+  background-color: rgba(220, 38, 38, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(220, 38, 38, var(--tw-border-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  transition-duration: 300ms
+}
+
+.btn-danger:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(239, 68, 68, var(--tw-border-opacity))
+}
+
 .sup::before {
   content: "";
   top: -.25rem;
@@ -37557,7 +37620,7 @@ ul li:hover {
   transition-duration: 300ms
 }
 
-.outline input:not(:-moz-placeholder-shown)~label{
+.outline input:not(:-moz-placeholder-shown)~label, .outline textarea:not(:-moz-placeholder-shown)~label{
   margin-left: 0.75rem;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -37578,7 +37641,7 @@ ul li:hover {
   color: var(--sub-color);
 }
 
-.outline input:not(:-ms-input-placeholder)~label{
+.outline input:not(:-ms-input-placeholder)~label, .outline textarea:not(:-ms-input-placeholder)~label{
   margin-left: 0.75rem;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -37599,7 +37662,7 @@ ul li:hover {
   color: var(--sub-color);
 }
 
-.outline input:focus-within~label, .outline input:not(:placeholder-shown)~label{
+.outline input:focus-within~label, .outline input:not(:placeholder-shown)~label, .outline textarea:focus-within~label, .outline textarea:not(:placeholder-shown)~label{
   margin-left: 0.75rem;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -37626,7 +37689,7 @@ ul li:hover {
   position: relative
 }
 
-.input-form input:not(:-moz-placeholder-shown)~label{
+.input-form input:not(:-moz-placeholder-shown)~label, .input-form textarea:not(:-moz-placeholder-shown)~label{
   margin-left: 0.75rem;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -37647,7 +37710,7 @@ ul li:hover {
   color: var(--sub-color);
 }
 
-.input-form input:not(:-ms-input-placeholder)~label{
+.input-form input:not(:-ms-input-placeholder)~label, .input-form textarea:not(:-ms-input-placeholder)~label{
   margin-left: 0.75rem;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -37668,7 +37731,7 @@ ul li:hover {
   color: var(--sub-color);
 }
 
-.input-form input:focus-within~label, .input-form input:not(:placeholder-shown)~label{
+.input-form input:focus-within~label, .input-form input:not(:placeholder-shown)~label, .input-form textarea:focus-within~label, .input-form textarea:not(:placeholder-shown)~label{
   margin-left: 0.75rem;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -37689,7 +37752,7 @@ ul li:hover {
   color: var(--sub-color);
 }
 
-.outline input:not(:-moz-placeholder-shown)~label{
+.outline input:not(:-moz-placeholder-shown)~label, .outline textarea:not(:-moz-placeholder-shown)~label{
   margin-left: 0.75rem;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -37710,7 +37773,7 @@ ul li:hover {
   color: var(--sub-color);
 }
 
-.outline input:not(:-ms-input-placeholder)~label{
+.outline input:not(:-ms-input-placeholder)~label, .outline textarea:not(:-ms-input-placeholder)~label{
   margin-left: 0.75rem;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -37731,7 +37794,133 @@ ul li:hover {
   color: var(--sub-color);
 }
 
-.outline input:focus-within~label, .outline input:not(:placeholder-shown)~label{
+.outline input:focus-within~label, .outline input:not(:placeholder-shown)~label, .outline textarea:focus-within~label, .outline textarea:not(:placeholder-shown)~label{
+  margin-left: 0.75rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  z-index: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-scale-x: .9;
+  --tw-scale-y: .9;
+  --tw-translate-y: -0.75rem;
+  color: var(--sub-color);
+}
+
+.outline input:not(:-moz-placeholder-shown)~label, .outline textarea:not(:-moz-placeholder-shown)~label{
+  margin-left: 0.75rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  z-index: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-scale-x: .9;
+  --tw-scale-y: .9;
+  --tw-translate-y: -0.75rem;
+  color: var(--sub-color);
+}
+
+.outline input:not(:-ms-input-placeholder)~label, .outline textarea:not(:-ms-input-placeholder)~label{
+  margin-left: 0.75rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  z-index: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-scale-x: .9;
+  --tw-scale-y: .9;
+  --tw-translate-y: -0.75rem;
+  color: var(--sub-color);
+}
+
+.outline input:focus-within~label, .outline input:not(:placeholder-shown)~label, .outline textarea:focus-within~label, .outline textarea:not(:placeholder-shown)~label{
+  margin-left: 0.75rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  z-index: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-scale-x: .9;
+  --tw-scale-y: .9;
+  --tw-translate-y: -0.75rem;
+  color: var(--sub-color);
+}
+
+.outline input:not(:-moz-placeholder-shown)~label, .outline textarea:not(:-moz-placeholder-shown)~label{
+  margin-left: 0.75rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  z-index: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-scale-x: .9;
+  --tw-scale-y: .9;
+  --tw-translate-y: -0.75rem;
+  color: var(--sub-color);
+}
+
+.outline input:not(:-ms-input-placeholder)~label, .outline textarea:not(:-ms-input-placeholder)~label{
+  margin-left: 0.75rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  z-index: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-scale-x: .9;
+  --tw-scale-y: .9;
+  --tw-translate-y: -0.75rem;
+  color: var(--sub-color);
+}
+
+.outline input:focus-within~label, .outline input:not(:placeholder-shown)~label, .outline textarea:focus-within~label, .outline textarea:not(:placeholder-shown)~label{
   margin-left: 0.75rem;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -37759,6 +37948,60 @@ ul li:hover {
 
 .input-form i {
   color: var(--sub-color)
+}
+
+.hasImage:hover section {
+  background-color: rgba(5, 5, 5, 0.4);
+}
+
+.hasImage:hover button:hover {
+  background: rgba(5, 5, 5, 0.45);
+}
+
+#overlay p,
+{
+  opacity: 0;
+}
+
+#overlay.draggedover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#overlay.draggedover p,
+#overlay.draggedover i {
+  opacity: 1;
+}
+
+.group:hover .group-hover\:text-blue-800 {
+  color: #2b6cb0;
+}
+
+table {
+  overflow: auto;
+  width: 100%
+}
+
+th, td{
+  border-bottom-width: 1px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  text-align: center;
+}
+
+th {
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity))
+}
+
+tr {
+  transition-duration: 300ms
+}
+
+tr:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity))
 }
 
 .section-login {

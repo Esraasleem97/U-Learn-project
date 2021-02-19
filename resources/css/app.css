@@ -93,6 +93,30 @@
     @apply text-main-color bg-white border-main-color
 }
 
+.btn-info {
+    @apply bg-blue-600 py-2 px-4 border-blue-600 duration-300 text-white
+}
+
+.btn-info:hover {
+    @apply bg-blue-500 border-blue-500
+}
+
+.btn-success {
+    @apply bg-green-600 py-2 px-4 border-green-600 duration-300 text-white
+}
+
+.btn-success:hover {
+    @apply bg-green-500 border-green-500
+}
+
+.btn-danger {
+    @apply bg-red-600 py-2 px-4 border-red-600 duration-300 text-white
+}
+
+.btn-danger:hover {
+    @apply bg-red-500 border-red-500
+}
+
 .sup::before {
     content: "";
     top: -.25rem;
@@ -137,7 +161,9 @@ ul li:hover {
 }
 
 .outline input:focus-within~label,
-.outline input:not(:placeholder-shown)~label {
+.outline input:not(:placeholder-shown)~label,
+.outline textarea:focus-within~label,
+.outline textarea:not(:placeholder-shown)~label {
     @apply transform scale-90 -translate-y-3 z-0 ml-3 px-1 py-0 text-sub-color
 }
 
@@ -151,6 +177,53 @@ ul li:hover {
 
 .input-form i {
     @apply text-sub-color
+}
+
+.hasImage:hover section {
+    background-color: rgba(5, 5, 5, 0.4);
+}
+
+.hasImage:hover button:hover {
+    background: rgba(5, 5, 5, 0.45);
+}
+
+#overlay p,
+{
+    opacity: 0;
+}
+
+#overlay.draggedover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#overlay.draggedover p,
+#overlay.draggedover i {
+    opacity: 1;
+}
+
+.group:hover .group-hover\:text-blue-800 {
+    color: #2b6cb0;
+}
+
+table {
+    @apply w-full overflow-auto
+}
+
+th,
+td {
+    @apply py-6 px-10 border-b text-center
+}
+
+th {
+    @apply bg-gray-200
+}
+
+tr {
+    @apply duration-300
+}
+
+tr:hover {
+    @apply bg-gray-200
 }
 
 .section-login {}

@@ -20,12 +20,13 @@
                 </div>
                 <div class="flex flex-wrap justify-center py-8">
                     @foreach ($books as $book)
-                    <a href="" class="stage m-4 w-full sm:w-3/6 md:w-2/5 lg:w-1/3 xl:w-1/5">
-                        <p class="transition duration-300">{{$book}}</p>
+
+                    <a href="{{route('add')}}" class="stage m-4 w-full sm:w-3/6 md:w-2/5 lg:w-1/3 xl:w-1/5">
+                        <p class="transition duration-300">{{$book}}</p> 
                         <i class="fas fa-arrow-left mt-2 text-main-color"></i>
                     </a>
-                    <a href="" class="stage m-4 w-full sm:w-3/6 md:w-2/5 lg:w-1/3 xl:w-1/5">
-                        <p class="transition duration-300">{{$book}}</p>
+                    <a href="{{route('add')}}" class="stage m-4 w-full sm:w-3/6 md:w-2/5 lg:w-1/3 xl:w-1/5">
+                        <p class="transition duration-300">{{$book}}</p> 
                         <i class="fas fa-arrow-left mt-2 text-main-color"></i>
                     </a>
                     @endforeach

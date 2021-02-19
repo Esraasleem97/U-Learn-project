@@ -14,5 +14,6 @@
         @yield('content')
         @include('frontend.Include.Footer')
 <script src="{{asset('js/app.js')}}"></script>
+<script src="{{asset('js/uploadVideo.js')}}"></script>
 </body>
 </html>
