@@ -7,8 +7,12 @@
     <form action="">
         @csrf
         <div class="container mx-auto ">
+<<<<<<< HEAD
 
             @include('frontend.include.navbar')
+=======
+            @include('public.include.navbar')
+>>>>>>> main
 
             <div class="border shadow-xl rounded-md w-full bg-white px-12 pb-10">
                 <div>

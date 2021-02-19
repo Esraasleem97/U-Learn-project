@@ -67,7 +67,10 @@
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/ramsey/collection" />
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/ramsey/uuid" />
+<<<<<<< HEAD
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/realrashid/sweet-alert" />
+=======
+>>>>>>> main
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/sebastian/cli-parser" />
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/sebastian/code-unit" />
       <excludeFolder url="file://$MODULE_DIR$/U-Learn/vendor/sebastian/code-unit-reverse-lookup" />

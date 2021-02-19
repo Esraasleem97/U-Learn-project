@@ -10,8 +10,10 @@ use Exception;
 use Illuminate\Http\Request;
 
 
+
 class LoginController extends Controller
 {
+
 
 
     protected $redirectTo = RouteServiceProvider::HOME;
@@ -47,5 +49,6 @@ class LoginController extends Controller
         } catch (Exception $e) {
             return back()->with(['errors' => 'حدث خطأ ما']);
         }
+
     }
 }

@@ -22,3 +22,4 @@ Route::group(['prefix' => 'register', 'middleware' => 'guest:web'], function () 
         ->name('teacher.register.create');
 });
 
+
