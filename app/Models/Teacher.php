@@ -15,4 +15,11 @@ class Teacher extends User
     {
         static::addGlobalScope(new TeacherScope());
     }
+
+
+    public function lessons()
+    {
+        return $this->hasMany(Lessons::class, 'teacher_id', 'id');
+    }
+
 }
