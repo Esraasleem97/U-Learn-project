@@ -27,8 +27,7 @@ class UpdateLessonRequests extends FormRequest
             'title' => 'required|max:100',
             'details' => 'required|max:2000',
             'media' => 'file|mimes:mpeg,ogg,mp4,webm,3gp,mov,flv,avi,wmv,ts',
-            'book_id' => 'required|integer',
-            'teacher_id' => 'required|integer'
+
 
         ];
     }
@@ -41,8 +40,6 @@ class UpdateLessonRequests extends FormRequest
             'details.required' => 'يجب ادخال الملخص',
             'media.required' => 'يجب ادخال فيديو',
             'media.mimes' => 'يجب ان يكون الملف من نوع (mp4 , mkv , mov , flv)',
-            'book_id.required' => 'هذا الحقل اجباري',
-            'teacher_id.required' => 'هذا الحقل اجباري'
 
         ];
     }

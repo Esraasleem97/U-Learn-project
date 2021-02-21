@@ -44,7 +44,7 @@ class LessonController extends Controller
     public function edit($id)
     {
         $lesson = Lessons::findOrFail($id)->first();
-        return redirect()->route('teacher.edit', compact('lesson'));
+        return view('frontend.teacher.page.edit', compact('lesson'));
 
     }
 
@@ -62,8 +62,8 @@ class LessonController extends Controller
             'title' => $request->title,
             'details' => $request->details,
             'media' => $file,
-            'book_id' => $request->book_id,
-            'teacher_id' => $request->teacher_id
+            'book_id' => $lesson->book_id,
+            'teacher_id' => $lesson->teacher_id
         ]);
         return redirect()->route('teacher.index')->with('success', 'تم تعديل الدرس بنجاح');
 
@@ -72,7 +72,7 @@ class LessonController extends Controller
     public function view($id)
     {
         $lesson = Lessons::findOrFail($id)->first();
-        return redirect()->route('teacher.view', compact('lesson'));
+        return view('frontend.teacher.page.view', compact('lesson'));
     }
 
     public function destroy($id)
