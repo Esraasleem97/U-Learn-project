@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * @method static create(array $validated)
  * @method static where(array $array)
+ * @method static findOrFail($id)
  */
 class Lessons extends Model
 {

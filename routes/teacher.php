@@ -36,12 +36,13 @@ Route::group(['prefix' => 'teacher', 'middleware' => 'auth:web'], function () {
         Route::get('/books/{year}', [BookController::class, 'show'])->name('teacher.books');
 
         Route::group(['prefix' => 'lesson'], function () {
-
             Route::get('/create/{book_id}', [LessonController::class, 'create'])->name('teacher.add');
             Route::post('/store', [LessonController::class, 'store'])->name('teacher.store');
-
             Route::get('/index', [LessonController::class, 'index'])->name('teacher.index');
-//            Route::get('/view', 'frontend.teacher.page.view')->name('teacher.view');
+            Route::get('/edit/{id}', [LessonController::class, 'edit'])->name('teacher.edit');
+            Route::post('/update/{id}', [LessonController::class, 'update'])->name('teacher.update');
+            Route::post('/destroy/{id}', [LessonController::class, 'destroy'])->name('teacher.destroy');
+            Route::get('/view/{id}', [LessonController::class, 'view'])->name('teacher.view');
         });
     });
 

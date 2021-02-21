@@ -16,7 +16,8 @@ class AllowUserAccess
     public function handle(Request $request, Closure $next, $type)
     {
         if (Auth()->check() && Auth()->user()->type == $type  ){
-            return $next($request);
+            if (Auth()->user()->is_verified) return $next($request);
+            return redirect()->to('/')->with('errors', 'لم يقم المسؤول بتوثيق الصلاحية');
         }
         return redirect()->to('/')->with('errors', 'لا تملك صلاحية للوصول الى هذه الصفحة');
     }

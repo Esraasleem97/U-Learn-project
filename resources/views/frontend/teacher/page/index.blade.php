@@ -31,9 +31,9 @@
                                 <td>{{$lesson->title}}</td>
                                 <td>{{substr($lesson->details , 0 , 15) . '...'}}</td>
                                 <td>
-                                    <a href="" class="btn btn-info">عرض</a>
-                                    <a href="" class="btn btn-success">تعديل</a>
-                                    <a href="" class="btn btn-danger">حذف</a>
+                                    <a href="{{route('teacher.view'  , $lesson->id)}}" class="btn btn-info">عرض</a>
+                                    <a href="{{route('teacher.edit'  , $lesson->id)}}" class="btn btn-success">تعديل</a>
+                                    <a href="{{route('teacher.destroy'  , $lesson->id)}}" class="btn btn-danger">حذف</a>
                                 </td>
                             </tr>
                             @endforeach

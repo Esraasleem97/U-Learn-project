@@ -31,6 +31,7 @@ class User extends Authenticated
         'remember_token',
     ];
 
+
     /**
      * The attributes that should be cast to native types.
      *
@@ -38,11 +39,18 @@ class User extends Authenticated
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'is_verified' => 'bool'
     ];
 
 
-    public static  function generateToken()
+    public static function generateToken()
     {
         return Str::random(50);
+    }
+
+
+    public function setIsVerifiedAttribute()
+    {
+        return $this->attributes['is_verified'] = false;
     }
 }
