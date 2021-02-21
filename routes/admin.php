@@ -11,3 +11,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'guest'], function () {
 
 
 });
+
+
+Route::get('/dashboard', function () {
+    return view('backend.page.dashboard');
+})->name('dashboard');

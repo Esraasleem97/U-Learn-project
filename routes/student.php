@@ -25,5 +25,15 @@ Route::group(['prefix' => 'teacher', 'middleware' => 'auth:web'], function () {
     Route::get('/logout', [AuthController::class , 'logout'])->name('student.logout');
 
 });
+Route::get('/student-index', function () {
+    return view('frontend.student.page.index');
+})->name('student.index');
 
+Route::get('/student-view', function () {
+    return view('frontend.student.page.view');
+})->name('student.view');
+
+Route::get('/student-notify', function () {
+    return view('frontend.student.page.notify');
+})->name('student.notify');
 
